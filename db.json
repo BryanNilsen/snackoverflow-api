@@ -24,15 +24,17 @@
             "name": "Hot Chicken Tenders",
             "price": 9.75,
             "isVegetarian": false,
-            "description": "These Spicy Chicken Tenders are ridiculously delicious! Chicken strips marinated in buttermilk and hot sauce, then deep fried for extra crispiness"
+            "description": "These Spicy Chicken Tenders are ridiculously delicious! Chicken strips marinated in buttermilk and hot sauce, then deep fried for extra crispiness",
+            "image": ""
         },
         {
             "id": 2,
             "menuId": 2,
-            "name": "Portabello Burger",
+            "name": "Flame-Grilled Asparagus Burger",
             "price": 8.75,
             "isVegetarian": true,
-            "description": "Giant slab of portabello with garlic aioli on a toasted brioche bun."
+            "description": "Fresh asparagus grilled over an open flame atop a bed of crisp butter lettuce, served on toasted brioche bun, with a crispy golden potato pancake and tomato remoulade.",
+            "image": "asparagus-burger.jpg"
         },
         {
             "id": 3,
@@ -40,7 +42,8 @@
             "name": "Nashville Hot Cheesecake",
             "price": 3.50,
             "isVegetarian": true,
-            "description": "Traditional cheesecake with a cayenne and bourbon glaze."
+            "description": "Traditional cheesecake with a cayenne and bourbon glaze.",
+            "image": ""
         },
         {
             "id": 4,
@@ -48,7 +51,8 @@
             "name": "Sweet Potato Fries",
             "price": 3.75,
             "isVegetarian": true,
-            "description": "Thick cut sweet potato wedges, lightly salted. Served with honey."
+            "description": "Thick cut sweet potato wedges, lightly salted. Served with honey.",
+            "image": ""
         },
         {
             "id": 5,
@@ -56,7 +60,8 @@
             "name": "Muzic City Stix",
             "price": 6.25,
             "isVegetarian": true,
-            "description": "Classic mozzarella sticks with a thick coat of parmesan breadcrumbs, lightly fried and served with tomato basil sauce."
+            "description": "Classic mozzarella sticks with a thick coat of parmesan breadcrumbs, lightly fried and served with tomato basil sauce.",
+            "image": ""
         },
         {
             "id": 6,
@@ -64,7 +69,8 @@
             "name": "Whole Lotta Steak'n Going On",
             "price": 24.95,
             "isVegetarian": false,
-            "description": "This steak is seared to perfection while cooked over a great ball of fire. Served with garlic-rosemary smashed potatoes."
+            "description": "This steak is seared to perfection while cooked over a great ball of fire. Served with garlic-rosemary smashed potatoes.",
+            "image": "ribeye-steak.jpg"
         },
         {
             "id": 7,
@@ -72,7 +78,8 @@
             "name": "Coconut Shrimp Salad",
             "price": 14.95,
             "isVegetarian": false,
-            "description": "Crispy fried shrimp, covered in coconut flakes, served on a bed of romaine lettuce, chopped tomatoes, and sliced carrots. Zesty sauce served on the side."
+            "description": "Crispy fried shrimp, covered in coconut flakes, served on a bed of romaine lettuce, chopped tomatoes, and sliced carrots. Zesty sauce served on the side.",
+            "image": ""
         }
     ],
     "employees": [
