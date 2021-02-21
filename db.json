@@ -98,18 +98,66 @@
     "employees": [
         {
             "id": 1,
-            "firstName": "John",
-            "lastName": "Kash",
-            "positionId": 1,
+            "firstName": "Maria",
+            "lastName": "Nolens",
+            "positionId": 7,
             "locationId": 1,
             "imgUrl": ""
         },
         {
             "id": 2,
-            "firstName": "Billie",
-            "lastName": "Raddish",
-            "positionId": 1,
+            "firstName": "Daniela",
+            "lastName": "Martin",
+            "positionId": 2,
+            "locationId": 1,
+            "imgUrl": ""
+        },
+        {
+            "id": 3,
+            "firstName": "Jennifer",
+            "lastName": "Baker",
+            "positionId": 2,
             "locationId": 2,
+            "imgUrl": ""
+        },
+        {
+            "id": 4,
+            "firstName": "Jon",
+            "lastName": "Cooke",
+            "positionId": 1,
+            "locationId": 1,
+            "imgUrl": ""
+        },
+        {
+            "id": 5,
+            "firstName": "Antonio",
+            "lastName": "Cruz",
+            "positionId": 3,
+            "locationId": 1,
+            "imgUrl": ""
+        },
+        {
+            "id": 6,
+            "firstName": "Anand",
+            "lastName": "Vira",
+            "positionId": 3,
+            "locationId": 2,
+            "imgUrl": ""
+        },
+        {
+            "id": 7,
+            "firstName": "Elaine",
+            "lastName": "Thompson",
+            "positionId": 1,
+            "locationId": 1,
+            "imgUrl": ""
+        },
+        {
+            "id": 8,
+            "firstName": "MacKenzie",
+            "lastName": "Brown",
+            "positionId": 4,
+            "locationId": 1,
             "imgUrl": ""
         }
     ],
@@ -124,7 +172,7 @@
         },
         {
             "id": 3,
-            "name": "Cook"
+            "name": "Chef"
         },
         {
             "id": 4,
