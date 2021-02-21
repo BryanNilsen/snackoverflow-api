@@ -15,6 +15,10 @@
         {
             "id": 4,
             "name": "Desserts"
+        },
+        {
+            "id": 5,
+            "name": "Brunch"
         }
     ],
     "items": [
@@ -25,7 +29,7 @@
             "price": 9.75,
             "isVegetarian": false,
             "description": "These Spicy Chicken Tenders are ridiculously delicious! Chicken strips marinated in buttermilk and hot sauce, then deep fried for extra crispiness",
-            "image": ""
+            "imageUrl": ""
         },
         {
             "id": 2,
@@ -34,7 +38,7 @@
             "price": 8.75,
             "isVegetarian": true,
             "description": "Fresh asparagus grilled over an open flame atop a bed of crisp butter lettuce, served on toasted brioche bun, with a crispy golden potato pancake and tomato remoulade.",
-            "image": "asparagus-burger.jpg"
+            "imageUrl": "asparagus-burger.jpg"
         },
         {
             "id": 3,
@@ -43,7 +47,7 @@
             "price": 3.50,
             "isVegetarian": true,
             "description": "Traditional cheesecake with a cayenne and bourbon glaze.",
-            "image": ""
+            "imageUrl": ""
         },
         {
             "id": 4,
@@ -52,7 +56,7 @@
             "price": 3.75,
             "isVegetarian": true,
             "description": "Thick cut sweet potato wedges, lightly salted. Served with honey.",
-            "image": ""
+            "imageUrl": ""
         },
         {
             "id": 5,
@@ -61,7 +65,7 @@
             "price": 6.25,
             "isVegetarian": true,
             "description": "Classic mozzarella sticks with a thick coat of parmesan breadcrumbs, lightly fried and served with tomato basil sauce.",
-            "image": ""
+            "imageUrl": "mozzarella-sticks.jpg"
         },
         {
             "id": 6,
@@ -70,7 +74,7 @@
             "price": 24.95,
             "isVegetarian": false,
             "description": "This steak is seared to perfection while cooked over a great ball of fire. Served with garlic-rosemary smashed potatoes.",
-            "image": "ribeye-steak.jpg"
+            "imageUrl": "ribeye-steak.jpg"
         },
         {
             "id": 7,
@@ -79,7 +83,16 @@
             "price": 14.95,
             "isVegetarian": false,
             "description": "Crispy fried shrimp, covered in coconut flakes, served on a bed of romaine lettuce, chopped tomatoes, and sliced carrots. Zesty sauce served on the side.",
-            "image": ""
+            "imageUrl": "coconut-shrimp-salad.jpg"
+        },
+        {
+            "id": 8,
+            "menuId": 1,
+            "name": "Eggplant Melanzana",
+            "price": 12.95,
+            "isVegetarian": true,
+            "description": "Thinly sliced eggplant, lightly oiled and grilled. Dressed with fresh pomegranate, herbs, and a light cream sauce.",
+            "imageUrl": "eggplant-melanzana.jpg"
         }
     ],
     "employees": [
@@ -87,13 +100,17 @@
             "id": 1,
             "firstName": "John",
             "lastName": "Kash",
-            "positionId": 1
+            "positionId": 1,
+            "locationId": 1,
+            "imgUrl": ""
         },
         {
             "id": 2,
             "firstName": "Billie",
             "lastName": "Raddish",
-            "positionId": 1
+            "positionId": 1,
+            "locationId": 2,
+            "imgUrl": ""
         }
     ],
     "positions": [
@@ -126,5 +143,30 @@
             "name": "Owner"
         }
     ],
-    "locations": []
+    "locations": [
+        {
+            "id": 1,
+            "address": "111 Music City, Blvd.",
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37201",
+            "phone": "615-867-5309",
+            "weekdayHours": "11am to 9pm",
+            "satHours": "12pm to 12am",
+            "sunHours": "closed",
+            "imgUrl": ""
+        },
+        {
+            "id": 2,
+            "address": "49 Little West 12th St.",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10005",
+            "phone": "212-345-5309",
+            "weekdayHours": "11am to 10pm",
+            "satHours": "5pm to 1am",
+            "sunHours": "9am to 1pm",
+            "imgUrl": ""
+        }
+    ]
 }
