@@ -215,6 +215,18 @@
             "satHours": "5pm to 1am",
             "sunHours": "9am to 1pm",
             "imgUrl": ""
+        },
+        {
+            "id": 3,
+            "address": "39 Signal Mtn. Rd.",
+            "city": "Chattanooga",
+            "state": "TN",
+            "zip": "37341",
+            "phone": "423-227-5555",
+            "weekdayHours": "10am to 8pm",
+            "satHours": "9am to 10pm",
+            "sunHours": "closed",
+            "imgUrl": ""
         }
     ]
 }
